@@ -2,12 +2,12 @@
 
 ## Overview
 
-This project focuses on sentiment analysis of textual comments using natural language processing (NLP) and machine learning techniques. The primary objective is to classify sentiments from text data, identify key phrases, and analyze various metrics related to sentiment and text content.
+This project focuses on sentiment analysis of textual comments related to climate change using natural language processing (NLP) and machine learning techniques. The primary objective is to classify sentiments from text data, identify key phrases, and analyze various metrics related to sentiment and text content.
 
 ## Data Preprocessing
 
-- **Data Loading**: The dataset is loaded from a CSV file containing textual comments along with sentiment scores and numerical scores.
-  
+- **Data Loading**: The dataset is loaded from a CSV file containing textual comments on climate change along with sentiment scores (indicating the sentiment's positivity or negativity) and interaction scores (numerical scores representing the level of engagement for each comment).
+
 - **Text Cleaning**:
   - **HTML and URL Removal**: HTML entities and URLs are stripped from the text to remove irrelevant content and potential noise.
   - **Normalization**: Text is converted to lowercase to ensure uniformity.
@@ -34,8 +34,8 @@ This project focuses on sentiment analysis of textual comments using natural lan
   - Examined the average length of comments by sentiment class to identify any trends or patterns related to comment length.
 
 - **Score Analysis**:
-  - **Sentiment Scores**: Investigated the distribution of numerical scores associated with each sentiment class.
-  - **Average Scores**: Computed the average scores for positive and negative comments to assess their intensity.
+  - **Sentiment Scores**: Investigated the distribution of sentiment scores (ranging from -1 to 1) associated with each sentiment class to understand the range of sentiment expressed.
+  - **Average Scores**: Computed the average interaction scores (representing engagement) for positive and negative comments to assess their intensity.
 
 - **Keyword and Word Frequency**:
   - **Top Keywords**: Identified the most frequently mentioned keywords and phrases in the comments.
