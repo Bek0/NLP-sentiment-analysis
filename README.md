@@ -1,4 +1,4 @@
-# README for NLP and Sentiment Analysis Project
+# NLP and Sentiment Analysis Project
 
 ## Overview
 
@@ -56,3 +56,23 @@ This project focuses on sentiment analysis of textual comments related to climat
 - **Evaluation**:
   - **Confusion Matrix**: Evaluated model performance by computing a confusion matrix to visualize the true vs. predicted classifications.
   - **Classification Report**: Generated a detailed classification report including metrics such as precision, recall, and F1-score to assess model accuracy and effectiveness.
+ 
+## Sentiment Prediction
+
+- **Test Comments**:
+  - Provided a set of test comments related to climate change that include both positive and negative sentiments for evaluation.
+
+- **Sentiment Prediction**:
+  - The model is used to predict the sentiment of each comment. The predictions are compared with the expected sentiments to verify the model's performance.
+
+## Word Importance Analysis
+
+- **General Words**:
+  - The TF-IDF scores of words in each comment are analyzed to understand their general importance in the context of the entire dataset.
+
+- **Significant Words**:
+  - Using the model’s coefficients and selected features, significant words in each comment are identified, indicating which words influenced the sentiment classification.
+
+## Conclusion
+
+This project successfully implements a sentiment analysis model using TF-IDF vectorization and an ensemble of machine learning models to classify climate change-related comments. Additionally, the analysis of word importance provides insights into which words are key drivers of sentiment. The model demonstrates good performance across key evaluation metrics, making it a valuable tool for understanding public sentiment towards climate change topics.
